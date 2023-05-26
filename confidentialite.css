@@ -1,0 +1,39 @@
+
+@font-face {
+    font-family: "Hurme";
+    src: url(HurmeGeometricSans4.otf);
+}
+
+body {
+	font-family: "Hurme";
+	margin: 0;
+	padding: 0;
+}
+
+.separator {
+	height:15px;
+	background: linear-gradient(90deg, rgb(92,23,132) 0%, rgb(218,2,43) 70%, rgb(215,122,53) 100%);
+}
+
+.container {
+	padding: 10px;
+}
+
+.header {
+	padding: 10px 5px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+h2 {
+	margin: 0;
+	text-align: center;
+	margin: 5px 10px;
+}
+
+.logo-sopra, .logo-armada {
+	height: 40px;
+	width: auto;
+}
+
